@@ -6,7 +6,7 @@
 
 def print_hi(dude):
     # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {dude}')  # Press Ctrl+F8 to toggle the breakpoint.
+    print('Hi, {dude}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
 # Press the green button in the gutter to run the script.

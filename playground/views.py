@@ -7,6 +7,12 @@ from django.http import HttpResponse
 # request handler
 # action
 
-def say_hallo(request):
+def calculate():
+    x = 1
+    y = 2
+    return x
 
-    return HttpResponse('Hello World')
+
+def say_hello(request):
+    x = calculate()
+    return render(request, 'hello.html', {'name': 'wojowniczko'})
