@@ -7,6 +7,7 @@ from django.http import HttpResponse
 # request handler
 # action
 
+
 def calculate():
     x = 1
     y = 2
